@@ -1,16 +1,11 @@
-<!--    # AUTORI/ADMINI:  
-			1) Jelena Lukic 3/7,
-			2) Luka Trebinjac 3/7,
-			3) Milan Minic 3-7,
+<!--    # AUTOR: Milan Minic 3-7
 
-		# PROJEKAT: Web Sajt (Staticni)
+	# PROJEKAT: Web Sajt (Staticni)
 
-		# TEHNOLOGIJE: HTML 5, CSS i JavaScript
+	# TEHNOLOGIJE: HTML 5, CSS i JavaScript
 
-		# DATUM (POCETAK RADA): 05.03.2022. (Subota, 19:00h)
+	# DATUM (POCETAK RADA): 05.03.2022. (Subota, 19:00h)
 
-    	# KOMENTARI: 1) Uz pocetna.html (index.html) ide i eksterni fajl pocetna.css (main.css),
-				     2) Back up pocetne.html i pocetne.css se nalaze u backUp folderu, unutar foldera FOLDER_MAIN
 -->
 
 <!doctype html>
