@@ -1,0 +1,66 @@
+::-webkit-scrollbar{
+	width: 5px;
+}
+
+::-webkit-scrollbar-track{
+	background: hsl(0, 100%, 0%);
+	border-radius: 6px;
+	margin-block: 2px;
+}
+
+::-webkit-scrollbar-thumb{
+	background: hsl(0, 100%, 100%);
+	border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background: #000000;
+}
+
+body {
+	display: grid;
+    margin: 0px;
+	padding: 0px;
+	font-family: consolas;
+	background-image: linear-gradient(#e0ca07, #b6270e);
+	height: 100vh;
+}
+
+.kontakt-klasa {
+    border: 2px solid black;
+    text-align: center;
+    font-weight: bold;
+	border-left: 0px;
+	border-right: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#header{
+    font-weight: bold;
+    height: 30px;
+	width: 200px;
+	margin: auto;
+	justify-content: center;
+
+}
+
+#back {
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	margin: 0 0;
+	text-decoration: none;
+	color: #000000;
+	transition: 400ms;
+	height: 30px;
+	padding-top: 5px;
+	margin: 0px 0px;
+}
+
+#back:hover,
+#back.active{
+	background: #000000;
+	color: #ffffff;
+	border-radius: 6px;
+}
