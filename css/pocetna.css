@@ -31,7 +31,7 @@ body{
 }
 
 .page{
-	background: url('pozadina.jpg');
+	background: url('../slike/pozadina.jpg');
 	background-size: cover;
 }
 
