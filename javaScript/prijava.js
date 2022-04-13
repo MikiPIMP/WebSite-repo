@@ -88,3 +88,28 @@ brisiObj.addEventListener('click', () => {                       //funk za ponis
     unosObj.forEach(input => input.value = '');
 });
 
+
+
+
+/*------------------------- LOKALNA DATABASE -----------------------------*/
+
+let korisnici = [];
+
+const dodajKorisnika = (posrednik) => {
+    posrednik.preventDefault();
+
+    let korisnik = {
+        ime: document.getElementById('ime').value,
+        prezime: document.getElementById('prezime').value,
+        gmail: document.getElementById('email').value,
+        loz: "PRIVATE!!"
+    }
+
+    korisnici.push(korisnik);
+
+    localStorage.setItem(`BazaKorisnik`, JSON.stringify(korisnici));
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('btn_2').addEventListener('click', dodajKorisnika);
+});
