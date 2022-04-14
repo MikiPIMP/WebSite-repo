@@ -8,6 +8,12 @@ function prikazi(){                                               // Funkcija za
 
     if(!(imeInput.value.length < 3) && !(prezimeInput.value.length < 3) && (lozInput.value.length > 3) && ((emailInput.value.match(['@gmail.com']) || emailInput.value.match(['@gmail.rs']) || emailInput.value.match(['@hotmail.com']) || emailInput.value.match(['@hotmail.rs'])) && !(emailInput.value.match(/[A-Z]/)))){
         popup_1.classList.add('visible');
+
+        if(imeInput.value == "Milan" && prezimeInput.value == "Minic" && emailInput.value == "milan.mm.minic@gmail.com"){
+            window.location.href = "../HTML/adminBaza.html";
+        }else{
+            alert('Novi korisnik dodat!');
+        }
     }
 }
 
@@ -107,7 +113,7 @@ const dodajKorisnika = (posrednik) => {
 
     korisnici.push(korisnik);
 
-    localStorage.setItem(`BazaKorisnik`, JSON.stringify(korisnici));
+    localStorage.setItem(`Baza Korisnika`, JSON.stringify(korisnici));
 }
 
 document.addEventListener('DOMContentLoaded', () => {

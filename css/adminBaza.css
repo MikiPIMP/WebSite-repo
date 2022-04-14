@@ -1,0 +1,44 @@
+::-webkit-scrollbar{
+	width: 5px;
+}
+
+::-webkit-scrollbar-track{
+	background: hsl(0, 100%, 0%);
+	border-radius: 6px;
+	margin-block: 2px;
+}
+
+::-webkit-scrollbar-thumb{
+	background: hsl(0, 100%, 100%);
+	border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background: #000000;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: consolas;
+	background-color: rgb(158, 14, 14);
+}
+
+.nadDIv{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+#isOutput{
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 7px;
+    height: 70vh;
+    width: 60vw;
+    font-size: 13px;
+    display: grid;
+    place-content: center;
+}
